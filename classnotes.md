@@ -95,3 +95,21 @@ let person = {
   > 💡 If it has **parentheses `()`**, it’s a **method**. If not, it’s a **property**.
 
 ---
+type annotation - we tell typescript what is that variable storing  
+type inferrencing - typescript will figure on its own what is stored in a variable
+
+when to use type annotations?  
+1. where if any function returns any type  
+2. if a variable need to store more than one primitive type  
+3. if variable is declared and will be assigned a value later.  
+
+when to use type interfence?  
+always
+
+JSON.parse({"5"}) --------> 5  
+JSON.parse({}) -----------> null  
+JSON.parse({"IB-1"}) -----> "IB-1"  
+
+TS cannot predict what will be the output of the parse  
+during that time we have type annotations
+---
