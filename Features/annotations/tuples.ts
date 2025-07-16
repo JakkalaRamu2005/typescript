@@ -15,3 +15,9 @@ type coolDrink={
     sugar: 40,
     colour: "yes"
 }
+
+
+// creating our own custom type
+type xyz =[string,number,string];
+
+const abc: xyz  = ["yes",40,"yes"]

@@ -113,3 +113,33 @@ JSON.parse({"IB-1"}) -----> "IB-1"
 TS cannot predict what will be the output of the parse  
 during that time we have type annotations
 ---
+
+
+functions -> annotations & inference 
+objects -> annotations & inference 
+arrays -> annotations & inference
+tuples -> annotations & inference 
+type aliasing - why we use it & it's advantages 
+interface -> intro 
+
+3-> arrow functions, 
+   function expressions 
+   function declarations 
+
+fn declaration: 
+
+function add(a,b){
+  return a+b
+}
+
+fn exp:
+--------
+const add = function(a,b){
+  return a+b;
+}
+
+arrow-functions:
+-----------
+const add=(a,b)=>a+b;
+
+// interfaces 
